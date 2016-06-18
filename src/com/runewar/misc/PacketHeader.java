@@ -1,0 +1,42 @@
+package com.runewar.misc;
+
+public class PacketHeader {
+	public static final short login = 0;
+	public static final short login_success = 1;
+	public static final short login_fail = 2;
+	public static final short online_status = 3;
+	public static final short online_status_return = 4;
+	public static final short send_request = 5;
+	public static final short send_request_success = 6;
+	public static final short send_request_fail = 7;
+	public static final short request_receive = 8;
+	public static final short request_expire = 9;
+	public static final short request_accept = 10;
+	public static final short request_accept_success = 11;
+	public static final short request_accept_fail = 12;
+	public static final short request_decline = 13;
+	public static final short request_decline_success = 14;
+	public static final short request_decline_fail = 15;
+	public static final short game_start_as_host = 16;
+	public static final short game_start_as_client = 17;
+	public static final short game_load_finish = 18;
+	public static final short game_host_count_down = 19;
+	public static final short game_host_start = 20;
+	public static final short game_set_rune = 21;
+	public static final short game_spawn_character = 22;
+	public static final short game_append_character = 23;
+	public static final short game_update_entity = 24;
+	public static final short game_append_character_damage = 25;
+	public static final short game_character_attack_to = 26;
+	public static final short game_use_cannon = 27;
+	public static final short game_cannon_to = 28;
+	public static final short game_use_meteor = 29;
+	public static final short game_meteor_to = 30;
+	public static final short game_use_heal = 31;
+	public static final short game_heal_to = 32;
+	public static final short game_use_stun = 33;
+	public static final short game_stun_to = 34;
+	public static final short game_result = 35;
+	public static final short game_end = 36;
+	public static final short ping = 37;
+}
